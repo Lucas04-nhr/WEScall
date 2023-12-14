@@ -17,3 +17,5 @@ if [[ $REPLY =~ ^[Yy]$ ]]
   fi
 fi
 
+echo "Successfully set up environment variables for WEScall!"
+
