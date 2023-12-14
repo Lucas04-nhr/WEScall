@@ -38,6 +38,8 @@ To start, you can download our pipeline by the following command:
 * **PL_DIR**: the directory where the pipeline is located. i.e., the directory of the git-cloned repository. For example, if the cloned repo is at `/opt/software/WEScall`, then `PL_DIR=/opt/software/WEScall`.
 * **WK_DIR**: the directory where you run the pipeline and store the outputs.
 
+You can easily set up the environment variables by running the following shell script:"./env.sh".
+
 ### 4.1 Generating 1KG reference panel
 **Please run** `${PL_DIR}/scripts/create_g1k_ref.sh` to generate 1000G reference panel files. (This process will take a while.) You should have downloaded [1000G phase 3 data]([ftp://ftp.1000genomes.ebi.ac.uk/vol1/ftp/release/20130502/](ftp://ftp.1000genomes.ebi.ac.uk/vol1/ftp/release/20130502/)) before running this command.
 
