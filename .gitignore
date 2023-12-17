@@ -23,3 +23,6 @@ resources/SeqCap_EZ_Exome_v3_primary.bed
 # macOS files
 **/.DS_Store
 
+# Data files
+./data
+
