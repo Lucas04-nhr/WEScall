@@ -1,6 +1,6 @@
 # WEScall
 
-#### Authors: Jinzhuang Dou, Degang Wu, [Chaolong Wang](http://chaolongwang.github.io), [Haoran Nie](https://github.com/lucas04-nhr)
+#### Authors: Jinzhuang Dou, Degang Wu, [Chaolong Wang](http://chaolongwang.github.io), redistributed by [Haoran Nie](https://github.com/lucas04-nhr)
 
 #### License: [GNU General Public License v3.0 (GPLv3)](https://www.gnu.org/licenses/gpl-3.0.en.html)
 ---
@@ -19,13 +19,13 @@ Details of this pipeline can be found in our paper:
 * Jinzhuang Dou, Degang Wu, Lin Ding, Kai Wang, Minghui Jiang, Xiaoran Chai, Dermot F. Reilly, E Shyong Tai, Jianjun Liu, Xueling Sim, Shanshan Cheng, Chaolong Wang. Using off-target data from whole-exome sequencing to improve genotyping accuracy, association analysis, and phenotype prediction, *Briefings in Bioinformatics*, doi: 10.1093/bib/bbaa084
 
 ## 3. Dependencies
-* Python (version >= 3.5)
-* [Snakemake](https://snakemake.readthedocs.io/en/stable/) (version >= 5.4)
-* Java (version >= 1.8.0)
-* Perl (version >= v5.10) with module YAML::XS (can be installed through `cpan`)
-* Bcftools (version >= 1.9) You can install it by `conda install -c bioconda bcftools`.
-* Parallel (optional)
-* Bioawk (optional)
+* **Python** (version >= 3.5)
+* **[Snakemake](https://snakemake.readthedocs.io/en/stable/)** (version >= 5.4)
+* **Java** (version >= 1.8.0)
+* **Perl** (version >= v5.10) with module YAML::XS (can be installed through `cpan`)
+* **[Bcftools](https://anaconda.org/bioconda/bcftools)** (version >= 1.9) You can install it by `conda install bioconda::bcftools`.
+* **Parallel** (optional)
+* **Bioawk** (optional)
 
 ## 4. Installation and configuration
 
