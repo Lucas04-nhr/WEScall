@@ -28,7 +28,7 @@ done
 function filter_autosome {
 	set -euo pipefail
 	chr=$1
-	bcftools annotate ${g1k_path}/ALL.chr${chr}.phase3_shapeit2_mvncall_integrated_v5a.20130502.genotypes.vcf.gz \
+	bcftools annotate ${g1k_path}/ALL.chr${chr}.phase3_shapeit2_mvncall_integrated_v5b.20130502.genotypes.vcf.gz \
 		-h <(printf "##FORMAT=<ID=GT,Number=1,Type=String,Description=\"Genotype\">") -Ou | \
 		bcftools norm --rm-dup none -Ou | \
 		bcftools view -m 2 -M 2 -Ou | \
