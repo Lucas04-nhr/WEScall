@@ -1,6 +1,6 @@
 # WEScall
 
-#### Authors: Jinzhuang Dou, Degang Wu, [Chaolong Wang](http://chaolongwang.github.io), redistributed by [Haoran Nie](https://github.com/lucas04-nhr)
+#### Authors: Jinzhuang Dou, Degang Wu, [Chaolong Wang](http://chaolongwang.github.io)
 
 #### License: [GNU General Public License v3.0 (GPLv3)](https://www.gnu.org/licenses/gpl-3.0.en.html)
 ---
