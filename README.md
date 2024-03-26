@@ -61,20 +61,6 @@ We provide two example files, `${PL_DIR}/cfg/run.template.PBSPro.sh` and `${PL_D
 Comments in `${PL_DIR}/cfg/varCall.cfg.yaml` should be helpful too.
 Link to 1000G phase 3 data: [ftp://ftp.1000genomes.ebi.ac.uk/vol1/ftp/release/20130502/](ftp://ftp.1000genomes.ebi.ac.uk/vol1/ftp/release/20130502/)
 
-### 4.2 Downloading resource files
-
-**Please run** `${PL_DIR}/scripts/download_resources.sh` to download resource files needed and uncompress at the correct directories. **This could take a while.** Alternatively, if you already have the resource files downloaded, you can run `${PL_DIR}/scripts/check_resources.sh` to check what resources files you lack and ways to download it. If the script determines a particular resource file is absent, please copy the mentioned resource file to the expected place or make a soft link to it.
-
-Link to GotCloud resource bundle: ftp://anonymous@share.sph.umich.edu/gotcloud/ref/hs37d5-db142-v1.tgz
-Link to genetic map: http://bochet.gcc.biostat.washington.edu/beagle/genetic_maps/plink.GRCh37.map.zip
-
-### 4.3 Configure the pipeline for your cluster
-
-Review and modify, if necessary, the contents of `${PL_DIR}/cfg/run.template.sh` and `${PL_DIR}/cfg/varCall.cfg.yaml`, according to the cluster engine type, queue name, wall time limits on your cluster.
-The default settings are tested on a Torque (An implementation of PBS) cluster. 
-We provide two example files, `${PL_DIR}/cfg/run.template.PBSPro.sh` and `${PL_DIR}/cfg/run.template.SGE.sh` to help you set up `${PL_DIR}/cfg/run.template.sh`.
-Comments in `${PL_DIR}/cfg/varCall.cfg.yaml` should be helpful too.
-
 ## 5. Running the pipeline
 
 ### 5.1. Variant calling 
