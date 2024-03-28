@@ -26,7 +26,7 @@ printf "downloading gotcloud bundles ...\n"
 
 pushd $DIR/pipelines/varCall/
 
-wget https://share.sph.umich.edu/gotcloud/ref/hs37d5-db142-v1.tgz
+wget -c https://share.sph.umich.edu/gotcloud/ref/hs37d5-db142-v1.tgz
 
 printf "uncompressing hs37d5-db142-v1.tgz...\n"
 
