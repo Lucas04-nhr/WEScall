@@ -10,7 +10,7 @@ fi
 
 pushd $DIR/resources/geneticMap_GRCh37
 
-wget https://bochet.gcc.biostat.washington.edu/beagle/genetic_maps/plink.GRCh37.map.zip
+wget https://bochet.gcc.biostat.washington.edu/beagle/genetic_maps/plink.GRCh37.map.zip -c
 
 unzip plink.GRCh37.map.zip
 
@@ -26,7 +26,7 @@ printf "downloading gotcloud bundles ...\n"
 
 pushd $DIR/pipelines/varCall/
 
-wget https://share.sph.umich.edu/gotcloud/ref/hs37d5-db142-v1.tgz
+wget https://share.sph.umich.edu/gotcloud/ref/hs37d5-db142-v1.tgz -c
 
 printf "uncompressing hs37d5-db142-v1.tgz...\n"
 
