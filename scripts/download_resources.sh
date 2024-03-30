@@ -33,3 +33,4 @@ printf "uncompressing hs37d5-db142-v1.tgz...\n"
 tar zxvf hs37d5-db142-v1.tgz
 
 rm hs37d5-db142-v1.tgz
+
