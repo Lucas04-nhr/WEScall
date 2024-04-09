@@ -37,7 +37,7 @@ function filter_autosome {
 
 function filter_X_chr {
 	set -euo pipefail
-	bcftools annotate ${g1k_path}/ALL.chrX.phase3_shapeit2_mvncall_integrated_v1a.20130502.genotypes.vcf.gz \
+	bcftools annotate ${g1k_path}/ALL.chrX.phase3_shapeit2_mvncall_integrated_v1c.20130502.genotypes.vcf.gz \
 		-h <(printf "%s\n%s" "##FORMAT=<ID=GT,Number=1,Type=String,Description=\"Genotype\">" "##INFO=<ID=OLD_VARIANT,Number=1,Type=String,Description=\"unknown\">") -Ou | \
 		bcftools norm --rm-dup none -Ou | \
 		bcftools view -m 2 -M 2 -Ou | \
