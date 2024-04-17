@@ -59,6 +59,7 @@ Review and modify, if necessary, the contents of `${PL_DIR}/cfg/run.template.sh`
 The default settings are tested on a Torque (An implementation of PBS) cluster. 
 We provide two example files, `${PL_DIR}/cfg/run.template.PBSPro.sh` and `${PL_DIR}/cfg/run.template.SGE.sh` to help you set up `${PL_DIR}/cfg/run.template.sh`.
 Comments in `${PL_DIR}/cfg/varCall.cfg.yaml` should be helpful too.
+
 Link to 1000G phase 3 data: [ftp://ftp.1000genomes.ebi.ac.uk/vol1/ftp/release/20130502/](ftp://ftp.1000genomes.ebi.ac.uk/vol1/ftp/release/20130502/)
 
 ## 5. Running the pipeline
